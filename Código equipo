@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    /* Jess Aguilar 
+    Equipo Los ocho tristes burros
+    29 abr 21
+    Programa de entradas de cine*/
+
+    float enter, price, pelicula1, entertaiment, total, discount;
+    price = 150;
+    discount = 15;
+    printf("¿A que pelicula desea entrar?");
+    scanf("%f" &pelicula1);
+    printf("Cuantos boletos?");
+    scanf("%f" &enter);
+    entertaiment = price * enter;
+    printf("/n Por inaguracion le daremos el 15 pesos de descuento");
+    total = entertaiment - discount;
+    printf("/n El monto a pagar sera el siguiente: %f");
+    return 0;
+}
