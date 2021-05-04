@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    /* Jess Aguilar 
+    Equipo Los ocho tristes burros
+    03 may 21
+    Programa para una carrera
+    */
+
+    float weeks, run, total;
+    printf ("\n Para la siguiente carrera deberas calcular cuanto haz corrido desde hace 4 semanas hasta el momento");
+    printf("\n ¿Cuántos kilometros por semana han corrido?");
+    scanf("%f", &run);
+    weeks = 4;
+    total = run * weeks;
+    printf("Los kilómetros recorridos de las semanas son: %f", total);
+    return 0;
+}
